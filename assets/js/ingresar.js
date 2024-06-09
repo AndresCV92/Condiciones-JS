@@ -16,10 +16,10 @@ verificar.addEventListener("click", () => {
 
   // Verificar si la contraseña es correcta
   if (primerNumero === 9 && segundoNumero === 1 && tercerNumero === 1) {
-    info.textContent = "Contraseña 1 correcta";
+    info.textContent = "password 1 correcto";
   } else if (primerNumero === 7 && segundoNumero === 1 && tercerNumero === 4) {
-    info.textContent = "Contraseña 2 correcta";
+    info.textContent = "password 2 correcto";
   } else {
-    info.textContent = "Contraseña incorrecta";
+    info.textContent = "password incorrecto";
   }
 });
