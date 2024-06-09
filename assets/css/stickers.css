@@ -1,0 +1,73 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 20rem ;
+    height: 20rem;
+}
+
+input{
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 7px;
+    font-size: medium;
+    text-align: center;
+}
+
+button{
+    margin-top: 1rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 7px;
+    font-size: medium;
+    cursor: pointer;
+    background-color: rgb(15, 204, 141);
+
+}
+
+.info{
+    font-size: large;
+}
+.sticker1 {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.sticker2 {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.sticker3 {
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;}
+
+
+

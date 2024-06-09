@@ -1,0 +1,38 @@
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+
+select{
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 7px;
+    text-align: center;
+    font-size: medium;
+}
+.accion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#verificar{
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 7px;
+    font-size: medium;
+    cursor: pointer;
+}
+#info{
+    font-size: larger;
+}
